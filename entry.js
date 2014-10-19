@@ -8,7 +8,7 @@ var self = this;
 var sampleRate = 44100//evt.data.sampleRate;
 var resamplers = [];
 var chans = 1;
-var player = av.Asset.fromURL('http://localhost:11004/audio.mp3')
+var player = av.Asset.fromURL('http://nhq.github.io/aurora-test/audio.mp3')
 //var player = av.Asset.fromURL('http://localhost:11002/youtube.mp3?https://www.youtube.com/watch?v=GUcXI2BIUOQ&list=RDGUcXI2BIUOQ&index=1')
 
 player.on('format', function(d){
